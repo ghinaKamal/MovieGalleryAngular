@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{DCC87DE9-39D8-4FBA-A33E-94988C43020E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="moviesAPI/Models/movieDetails.cs">
+    <Files>
+      <File FileName="moviesAPI/Models/topMovies.cs" Line="32" Column="1" />
+      <File FileName="moviesAPI/Program.cs" Line="32" Column="1" />
+      <File FileName="moviesAPI/appsettings.json" Line="1" Column="1" />
+      <File FileName="moviesAPI/Controllers/topTvShowsController.cs" Line="1" Column="1" />
+      <File FileName="moviesAPI/Controllers/topMoviesController.cs" Line="6" Column="1" />
+      <File FileName="moviesAPI/Models/topMovies2.cs" Line="13" Column="26" />
+      <File FileName="moviesAPI/Models/topTvShows.cs" Line="6" Column="22" />
+      <File FileName="moviesAPI/Models/topTvShows2.cs" Line="1" Column="1" />
+      <File FileName="moviesAPI/Controllers/creditsController.cs" Line="46" Column="10" />
+      <File FileName="moviesAPI/Models/credits.cs" Line="21" Column="1" />
+      <File FileName="moviesAPI/Models/creditsContext.cs" Line="12" Column="45" />
+      <File FileName="moviesAPI/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="moviesAPI/Controllers/MovieDetailsController.cs" Line="23" Column="47" />
+      <File FileName="moviesAPI/Models/movieDetails.cs" Line="30" Column="10" />
+      <File FileName="moviesAPI/Models/movieDetailsContext.cs" Line="7" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="moviesAPI" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/danakaj/Desktop/RJP/RJP/moviesAPI/moviesAPI/Controllers/creditsController.cs" relfile="moviesAPI/Controllers/creditsController.cs" line="40" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.moviesAPI PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
