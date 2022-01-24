@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: rgb(3, 37, 65);
+
+}
+h1{
+    color: rgb(16, 151, 151);
+    margin-left: 20px; 
+    padding-right: 62%;
+}
+a:link, a:visited {
+    
+    color: white;
+    /* padding: 14px 25px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+    margin-left: 40px;
+
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(16, 151, 151);
+  }

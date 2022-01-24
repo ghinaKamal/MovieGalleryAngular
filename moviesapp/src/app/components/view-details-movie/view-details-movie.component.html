@@ -1,0 +1,45 @@
+<div class="container" *ngIf="movie.id.toString() == this.id" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+  <div class="details">
+    <img id="backdrop"src="https://image.tmdb.org/t/p/w185/{{movie.backdrop_path}}" alt="Nature">
+
+    <div class="info" style="width: 100%; display: table;">
+      <div style="display: table-row">
+        
+          <div style="width: 400px; display: table-cell; padding-right: 25px;"> <img src="https://image.tmdb.org/t/p/w185/{{movie.poster_path}}" alt="Nature" >
+          </div>
+          <div class="movieDetails" style="display: table-cell;">  
+            <h2> {{movie.title}} </h2>
+            <p> <i class="bi bi-heart-fill"></i> {{movie.vote_average}} 
+              <i class="bi bi-globe"></i>{{movie.original_language}} </p>
+            <p> Released on: {{movie.release_date}} </p>         
+            <h3>Overview</h3>
+            <p>{{movie.overview}}</p>
+            <h3> Tags: </h3>
+          
+            <span id="tags" *ngIf="movie.genre_ids.includes(28)" > Action</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(12)" > Adventure</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(16)" > Animation</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(35)" > Comedy</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(80)" > Crime</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(99)" > Documentary</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(18)" > Drama</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(10751)" > Family</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(14)" > Fantasy</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(36)" > History</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(27)" > Horror</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(10402)" > Music</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(9648)" > Mystery</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(10749)" > Romance</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(878)" >  Science Fiction</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(10770)" >   TV Movie   </span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(53)" > Thriller</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(10752)" > War</span>
+            <span id="tags" *ngIf="movie.genre_ids.includes(37)" > Western</span>
+
+           </div>
+      </div>
+  </div>
+  </div>
+</div>

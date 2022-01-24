@@ -1,0 +1,36 @@
+<div>
+    <h2> Popular Tvshows</h2>
+    <!-- *ngIf=" movie.genre_ids.includes(18 && 80 && 9648) -->
+    <h2> Comedy    </h2>
+    <div class="grid_home" >
+        <ng-container *ngFor="let tvshow of tvshows" >
+            <div *ngIf="tvshow.genre_ids.includes(35)">
+                <div class="grid">
+                    <app-card-tvshows [tvshow]="tvshow"> </app-card-tvshows>
+                </div>
+            </div>
+        </ng-container>
+      
+    </div>
+    <h3> Sci-Fi & Fantasy </h3>
+    <div class="grid_home">
+        <ng-container *ngFor="let tvshow of tvshows" >
+            <div *ngIf="tvshow.genre_ids.includes(10765)">
+                <div class="grid">
+                    <app-card-tvshows [tvshow]="tvshow"> </app-card-tvshows>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <h3> Drama </h3>
+    <div class="grid_home">
+        <ng-container *ngFor="let tvshow of tvshows" >
+            <div *ngIf="tvshow.genre_ids.includes(18)">
+                <div class="grid">
+                    <app-card-tvshows [tvshow]="tvshow"> </app-card-tvshows>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+</div>

@@ -1,0 +1,18 @@
+<h1> Millions of movies, TV shows and people to discover. Explore now.</h1>
+<h2> Popular Movies</h2>
+
+<div class="grid_home">
+  <!-- <p *ngFor="let movie of movies"> {{movie.id}} </p> -->
+  <app-card *ngFor="let movie of movies" 
+  [movie]="movie"
+  ></app-card>
+  
+</div>
+
+<h2> Popular Tv Shows </h2>
+<div class="grid_home">
+  <app-card-tvshows *ngFor="let tvshow of tvshows" 
+  [tvshow]="tvshow"></app-card-tvshows>
+</div>
+
+

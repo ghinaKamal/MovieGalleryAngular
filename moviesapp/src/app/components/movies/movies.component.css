@@ -1,0 +1,16 @@
+.grid_home{
+    /* padding: 30px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f3f3f3;
+    grid-gap: 0px;
+   
+}
+.grid{
+    margin-top: 230px;
+}
+h3{
+    margin-top: -210px;
+    font-size: 25px;
+}
+

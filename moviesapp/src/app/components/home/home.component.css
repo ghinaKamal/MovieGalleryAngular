@@ -1,0 +1,11 @@
+.grid_home{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f3f3f3;
+    grid-gap: 30px;
+    width: 100%;
+}
+h1{
+    color: rgb(16, 151, 151);
+}

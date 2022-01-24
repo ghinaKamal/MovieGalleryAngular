@@ -1,0 +1,24 @@
+<div class="card">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <div class="grid-container">
+      <div class="poster">
+        <img src="https://www.themoviedb.org/t/p/w500/{{tvshow.poster_path}}" alt="image not loading" (click)="onClick()"/>
+      </div>
+
+    </div>
+      
+    <div class="details">
+      <h2 (click)="onClick()">{{tvshow.name}} </h2>  
+      <div class="rating">
+        <span style="color:red"> <i class="bi bi-heart-fill"></i> {{tvshow.vote_average}}</span>
+        <span style="color:burlywood"> <i class="bi bi-globe"></i>{{tvshow.original_language}} </span>
+      </div>
+      <div class="info">
+        <span id="release"> {{tvshow.first_air_date}}</span>
+      </div>
+    </div>
+  
+  </div>
+
+  

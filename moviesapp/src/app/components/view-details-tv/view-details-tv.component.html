@@ -1,0 +1,43 @@
+<div class="container" *ngIf="tvshow.id.toString() == this.id" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+  <div class="details">
+    <img id="backdrop"src="https://image.tmdb.org/t/p/w185/{{tvshow.backdrop_path}}" alt="Nature">
+
+    <div class="info" style="width: 100%; display: table;">
+      <div style="display: table-row">
+        
+          <div style="width: 400px; display: table-cell; padding-right: 25px;"> <img src="https://image.tmdb.org/t/p/w185/{{tvshow.poster_path}}" alt="Nature" >
+          </div>
+          <div class="movieDetails" style="display: table-cell;">  
+            <h2> {{tvshow.name}} </h2>
+            <p> <i class="bi bi-heart-fill"></i> {{tvshow.vote_average}} 
+                <i class="bi bi-globe"></i>{{tvshow.original_language}} </p>
+            <p> Released on: {{tvshow.first_air_date}} </p>         
+            <h3>Overview</h3>
+            <p>{{tvshow.overview}}</p>
+            <h3> Tags: </h3>
+          
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10759)" > Action & Adventure</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(16)" > Animation</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(35)" > Comedy</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(80)" > Crime</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(99)" > Documentary</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(18)" > Drama</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10751)" > Family</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10762)" >  Kids </span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(9648)" > Mystery</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10763)" >  News</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10765)" >  Sci-Fi & Fantasy</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10764)" > Reality  </span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10766)" > Soap</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10767)" > Talk</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(10768)" > War & Politics</span>
+            <span id="tags" *ngIf="tvshow.genre_ids.includes(37)" > Western</span>
+
+           </div>
+      </div>
+  </div>
+  </div>
+</div>
+

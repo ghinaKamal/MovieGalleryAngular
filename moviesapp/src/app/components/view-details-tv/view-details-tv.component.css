@@ -1,0 +1,54 @@
+.details {
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    
+ }
+.details img{
+    width: 100%;
+    height: 100%;
+}
+#backdrop{
+    opacity: 0.6;
+}
+
+.info {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    height: 470px;
+    width: 23%;
+    padding: 0 10px;
+    padding-top: 40px;
+}
+.movieDetails{
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+}
+.movieDetails h2{
+    font-size: 42px;
+}
+.movieDetails p{
+    font-size: 23px;
+}
+h3{
+    font-size: 30px;
+
+}
+#tags {
+    background-color: rgb(16, 151, 151);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
+  }
+
+

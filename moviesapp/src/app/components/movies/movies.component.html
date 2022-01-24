@@ -1,0 +1,43 @@
+<h2> Popular Movies</h2>
+<!-- *ngIf=" movie.genre_ids.includes(18 && 80 && 9648) -->
+<div class="main">
+    <h2> Crime </h2>
+    <div class="grid_home" >
+        <ng-container *ngFor="let movie of movies">
+            <div *ngIf="movie.genre_ids.includes(80)">
+                <div class="grid">
+                    <app-card 
+                    [movie]="movie"
+                    ></app-card>
+                </div>
+            </div>
+        </ng-container>
+      
+    </div>
+
+    <h3> Science Fiction </h3>
+    <div class="grid_home">
+        <ng-container *ngFor="let movie of movies">
+            <div *ngIf="movie.genre_ids.includes(878)">
+                <div class="grid">
+                    <app-card 
+                    [movie]="movie"
+                    ></app-card>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <h3> Adventure </h3>
+    <div class="grid_home">
+        <ng-container *ngFor="let movie of movies">
+            <div *ngIf="movie.genre_ids.includes(12)">
+                <div class="grid">
+                    <app-card 
+                    [movie]="movie"
+                    ></app-card>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+</div>
